@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS ticket;
+
+CREATE TABLE ticket (
+  ticket_id INT AUTO_INCREMENT  PRIMARY KEY,
+  resumen VARCHAR(250) NOT NULL,
+  descripcion VARCHAR(250) NOT NULL,
+  solucion VARCHAR(250) NOT NULL,
+  estado VARCHAR(250) DEFAULT NULL
+);
